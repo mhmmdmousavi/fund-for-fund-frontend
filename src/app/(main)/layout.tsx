@@ -1,5 +1,5 @@
-import FooterAuth from "@/components/footer/FooterAuth";
-import NavAuth from "@/components/nav/NavAuth";
+import FooterMain from "@/components/footer/FooterMain";
+import NavMain from "@/components/nav/NavMain";
 
 export default function authLayout({
   children,
@@ -8,9 +8,9 @@ export default function authLayout({
 }>) {
   return (
     <div>
-      <NavAuth />
+      <NavMain />
       {children}
-      <FooterAuth />
+      <FooterMain/>
     </div>
   );
 }

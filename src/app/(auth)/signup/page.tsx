@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function SignUp() {
     return(
-        <div>
+        <div className="max-w-500 place-self-center">
             <div className="w-full flex flex-col items-center px-10 gap-10 my-20">
                 <p className="text-2xl">Create your personal account</p>
                 <p className="text-4xl font-medium text-purple-900">FUND FOR FOUND</p>
